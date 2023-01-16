@@ -1,0 +1,87 @@
+body {
+  text-align: center;
+  margin: 60px;
+}
+
+.hero,
+.copywrite {
+  background: #1f2937;
+  color: white;
+}
+.hero {
+  padding: 60px;
+}
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+.logo {
+  margin-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+.header-body {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.header-body h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.header-body h4 {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.header-image {
+  background: #e5e7eb;
+  text-align: center;
+}
+.header-button {
+  padding: 9px;
+  background: #3882f6;
+  border-radius: 8px;
+  color: white;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border: 2px solid #3882f6;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.action-container,
+.footer-button {
+  background: #3882f6;
+}
+
+.action-container {
+  padding: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.copywrite {
+  padding: 20px;
+}
+
+.footer-button {
+  color: white;
+}
