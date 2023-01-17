@@ -1,6 +1,12 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(/fonts/Roboto/Roboto-BoldItalic.ttf);
+}
+
 body {
   text-align: center;
   margin: 60px;
+  font-family: "Roboto", sans-serif;
 }
 
 .hero,
@@ -14,6 +20,7 @@ body {
 .links {
   display: flex;
   justify-content: flex-end;
+  font-family: "Roboto", sans-serif;
 }
 .logo {
   margin-left: 20px;
@@ -41,12 +48,13 @@ body {
 .header-image {
   background: #6d747d;
   display: flex;
-  justify-items: center;
   width: 600px;
 }
 .header-image p {
   display: flex;
-  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 200px;
 }
 .header-button {
   padding: 9px;
@@ -71,8 +79,12 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
+  margin-left: 150px;
 }
 
+.middle-body h2 {
+  margin-top: 50px;
+}
 .action-container,
 .footer-button {
   background: #3882f6;
@@ -88,6 +100,8 @@ body {
 }
 
 .action-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   margin-bottom: 50px;
   margin-top: 20px;
   padding: 30px;
