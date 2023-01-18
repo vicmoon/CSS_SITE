@@ -1,12 +1,27 @@
 @font-face {
   font-family: "Roboto";
-  src: url(/fonts/Roboto/Roboto-BoldItalic.ttf);
+  src: url(/fonts/Roboto/Roboto-Black.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(/fonts/Roboto/Roboto-Bold.ttf) format("truetype");
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(/fonts/Roboto/Roboto-Light.ttf) format("truetype");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Roboto-LightItalic";
+  src: url(/fonts/Roboto/Roboto-LightItalic.ttf) format("truetype");
+}
 body {
   text-align: center;
   margin: 60px;
-  font-family: "Roboto", sans-serif;
 }
 
 .hero,
@@ -16,16 +31,25 @@ body {
 }
 .hero {
   padding: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
 }
+
 .links {
   display: flex;
-  justify-content: flex-end;
+  justify-content: end;
+  align-items: space-between;
   font-family: "Roboto", sans-serif;
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 .logo {
   margin-left: 20px;
   display: flex;
   justify-content: flex-start;
+  font-size: 24px;
+  color: #f9faf8;
 }
 .header-body {
   padding-top: 20px;
@@ -36,12 +60,14 @@ body {
 }
 
 .header-body h1 {
+  font-family: "Roboto-Bold";
   font-size: 48px;
-  font-weight: bold;
+  font-weight: bolder;
   color: #f9faf8;
 }
 
 .header-body h4 {
+  font-family: "Roboto-Light";
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -53,9 +79,10 @@ body {
 .header-image p {
   display: flex;
   text-align: center;
-  margin-top: 100px;
+  align-items: center;
   margin-left: 200px;
 }
+
 .header-button {
   padding: 9px;
   background: #3882f6;
@@ -75,6 +102,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.card {
+}
 .photos-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -84,6 +114,10 @@ body {
 
 .middle-body h2 {
   margin-top: 50px;
+  font-size: 36px;
+  font-family: "Roboto-Bold";
+  font-weight: bolder;
+  color: #1f2937;
 }
 .action-container,
 .footer-button {
@@ -93,17 +127,32 @@ body {
 .quote-container {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   background-color: #e5e7eb;
   height: 200px;
-  padding: 30px;
+  padding: 80px;
+  margin-top: 50px;
 }
 
+.quote-container p,
+small {
+  word-spacing: 10px;
+  text-align: center;
+  width: 800px;
+  font-family: "Roboto-LightItalic";
+  font-size: 36px;
+}
+.quote-container small {
+  position: relative;
+  left: 100px;
+}
 .action-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
   margin-bottom: 50px;
-  margin-top: 20px;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
   padding: 30px;
   height: 100px;
   border-radius: 10px;
