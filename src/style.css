@@ -37,12 +37,13 @@ body {
 
 .links {
   display: flex;
-  justify-content: end;
-  align-items: space-between;
+  justify-content: flex-end;
+  align-items: revert;
   font-family: "Roboto", sans-serif;
   color: #e5e7eb;
   font-size: 18px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+ 
 }
 .logo {
   margin-left: 20px;
@@ -99,18 +100,35 @@ body {
   border-radius: 8px;
   margin-bottom: 50px;
   margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ 
 }
 
-.card {
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:20px;
+} 
+.card{
+  background: #1f2937;
+  color: #e5e7eb;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+img{
+  padding: 20px;
 }
 .photos-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
   margin-left: 150px;
+}
+.description-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  width: 100x;
+  margin-left: 100px;
 }
 
 .middle-body h2 {
