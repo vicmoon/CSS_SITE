@@ -71,17 +71,19 @@ body {
   font-family: "Roboto-Light";
   font-size: 18px;
   color: #e5e7eb;
+  padding: 10px;
 }
 .header-image {
   background: #6d747d;
+  width: 500px;
   display: flex;
-  width: 600px;
+  align-items: center;
 }
+
 .header-image p {
   display: flex;
   text-align: center;
-  align-items: center;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 .header-button {
