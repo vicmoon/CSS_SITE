@@ -94,16 +94,6 @@ body {
   width: 100px;
 }
 
-.box {
-  width: 100px;
-  height: 100px;
-  padding: 20px;
-  border: 2px solid #3882f6;
-  border-radius: 8px;
-  margin-bottom: 50px;
-  margin-top: 50px;
- 
-}
 
 .main-grid {
   display: grid;
@@ -129,10 +119,21 @@ img{
   grid-gap: 0;
   margin-left: 150px;
 }
+
+
+.box {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border: 2px solid #3882f6;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+ 
+}
 .box small{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: flex-end;
   font-size: 10px;
   margin-top: 140px;
