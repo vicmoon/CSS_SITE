@@ -95,12 +95,13 @@ body {
 .box {
   width: 100px;
   height: 100px;
-  padding: 20px;
+  padding: 15px;
   border: 2px solid #3882f6;
   border-radius: 8px;
   margin-bottom: 50px;
   margin-top: 50px;
  
+
 }
 
 .main-grid {
@@ -124,17 +125,21 @@ img{
 .photos-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 0;
   margin-left: 150px;
 }
-.description-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 10px;
-  width: 100x;
-  margin-left: 100px;
+.box small{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 10px;
+  margin-top: 140px;
+  margin-left: -20px;
+  width: 120px ;
+  text-align: left;
+  
 }
-
 .middle-body h2 {
   margin-top: 50px;
   font-size: 36px;
@@ -168,6 +173,7 @@ small {
 .quote-container small {
   position: relative;
   left: 100px;
+  font-weight: bold;
 }
 .action-container {
   display: grid;
