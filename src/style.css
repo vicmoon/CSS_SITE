@@ -208,12 +208,11 @@ small {
   border-radius: 8px;
 }
 
-.action-container .lets-talk {
+.action-container-contact .lets-talk {
   font-size: 20px;
   font-family: "Roboto-Bold";
   font-weight: bolder;
-  color: #1f2937;
-  padding: 30px;
+  color: #e5e7eb;
 }
 
 .copywrite {
