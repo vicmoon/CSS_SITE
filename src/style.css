@@ -45,6 +45,11 @@ body {
   margin-bottom: 50px;
  
 }
+
+.links a{
+  color:#e5e7eb;
+}
+
 .logo {
   margin-left: 20px;
   display: flex;
