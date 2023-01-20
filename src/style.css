@@ -208,7 +208,7 @@ small {
   border-radius: 8px;
 }
 
-.action-container .talk{
+.action-container p .talk{
   font-size: 36px;
   font-family: "Roboto-Bold";
   font-weight: bolder;
