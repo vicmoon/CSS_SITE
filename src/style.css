@@ -44,6 +44,9 @@ body {
   font-size: 18px;
   margin-bottom: 30px;
 }
+.links a {
+  color: #e5e7eb;
+}
 .logo {
   margin-left: 20px;
   display: flex;
@@ -80,7 +83,7 @@ body {
   display: flex;
   text-align: center;
   align-items: center;
-  margin-left: 200px;
+  margin-left: 210px;
 }
 
 .header-button {
@@ -122,6 +125,11 @@ body {
   margin-left: 150px;
 }
 
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
 .middle-body h2 {
   margin-top: 50px;
   font-size: 36px;
@@ -168,6 +176,7 @@ small {
   border-radius: 10px;
   color: white;
 }
+
 .action-container button {
   padding: 10px;
   background-color: #3882f6;
@@ -176,6 +185,27 @@ small {
   margin-top: 10px;
   border-radius: 8px;
 }
-.copywrite {
+
+.action-container-contact .lets-talk {
+  font-size: 20px;
+  font-family: "Roboto-Bold";
+  font-weight: bolder;
+  color: #e5e7eb;
+  padding: 60px;
+  background: #3882f6;
+  border-radius: 10px;
+}
+
+.action-container-contact button {
+  padding: 10px;
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 9pc;
+}
+
+.copyright {
   padding: 20px;
+  background: #1f2937;
+  color: #e5e7eb;
+  padding: 35px;
 }
