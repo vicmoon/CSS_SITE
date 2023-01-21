@@ -1,23 +1,23 @@
 @font-face {
   font-family: "Roboto";
-  src: url(../fonts/Roboto/Roboto-Black.ttf) format("truetype");
+  src: url(/fonts/Roboto/Roboto-Black.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Roboto-Bold";
-  src: url(../fonts/Roboto/Roboto-Bold.ttf) format("truetype");
+  src: url(/fonts/Roboto/Roboto-Bold.ttf) format("truetype");
   font-weight: bolder;
 }
 
 @font-face {
   font-family: "Roboto-Light";
-  src: url(../fonts/Roboto/Roboto-Light.ttf) format("truetype");
+  src: url(/fonts/Roboto/Roboto-Light.ttf) format("truetype");
   font-weight: lighter;
 }
 
 @font-face {
   font-family: "Roboto-LightItalic";
-  src: url(../fonts/Roboto/Roboto-LightItalic.ttf) format("truetype");
+  src: url(/fonts/Roboto/Roboto-LightItalic.ttf) format("truetype");
 }
 body {
   text-align: center;
@@ -37,19 +37,13 @@ body {
 
 .links {
   display: flex;
-  justify-content: flex-end;
-  align-items: revert;
+  justify-content: end;
+  align-items: space-between;
   font-family: "Roboto", sans-serif;
   color: #e5e7eb;
   font-size: 18px;
-  margin-bottom: 50px;
- 
+  margin-bottom: 30px;
 }
-
-.links a{
-  color:#e5e7eb;
-}
-
 .logo {
   margin-left: 20px;
   display: flex;
@@ -57,15 +51,12 @@ body {
   font-size: 24px;
   color: #f9faf8;
 }
-
 .header-body {
-
+  padding-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   text-align: left;
-  padding: 9px;
-
 }
 
 .header-body h1 {
@@ -73,28 +64,23 @@ body {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
-  padding-top: 9px;
 }
 
 .header-body h4 {
   font-family: "Roboto-Light";
   font-size: 18px;
   color: #e5e7eb;
-  padding: 10px;
-
 }
 .header-image {
   background: #6d747d;
-  width: 500px;
   display: flex;
-  align-items: center;
-  margin-left: 10px;
+  width: 600px;
 }
-
 .header-image p {
   display: flex;
   text-align: center;
-  margin-left: 100px;
+  align-items: center;
+  margin-left: 200px;
 }
 
 .header-button {
@@ -105,32 +91,6 @@ body {
   width: 100px;
 }
 
-.main-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap:20px;
-} 
-.card{
-  background: #1f2937;
-  color: #e5e7eb;
-  padding-top: 5px;
-  padding-bottom: 15px;
-}
-.card p{
-  padding:20px;
-  text-align: left;
-  font-family: "Roboto-LightItalic";}
-
-img{
-  padding: 20px;
-}
-.photos-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 0;
-  margin-left: 150px;
-}
-
 .box {
   width: 100px;
   height: 100px;
@@ -139,20 +99,18 @@ img{
   border-radius: 8px;
   margin-bottom: 50px;
   margin-top: 50px;
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.box small{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  font-size: 10px;
-  margin-top: 140px;
-  margin-left: -20px;
-  width: 120px ;
-  text-align: left;
-  
+.photos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-left: 150px;
 }
+
 .middle-body h2 {
   margin-top: 50px;
   font-size: 36px;
@@ -186,7 +144,6 @@ small {
 .quote-container small {
   position: relative;
   left: 100px;
-  font-weight: bold;
 }
 .action-container {
   display: grid;
@@ -208,17 +165,6 @@ small {
   margin-top: 10px;
   border-radius: 8px;
 }
-
-.action-container-contact {
-  font-size: 20px;
-  font-family: "Roboto-Bold";
-  font-weight: bolder;
-  background-color: #1f2937;
-  border: 2px solid white;
-  padding: 30px;
-  color:#e5e7eb;
-}
-
 .copywrite {
-  padding: 40px;
+  padding: 20px;
 }
