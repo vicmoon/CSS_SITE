@@ -190,7 +190,6 @@ small {
   padding: 20px;
   text-align: center;
   font-family: "Roboto-Light", sans-serif;
-
 }
 
 
@@ -203,17 +202,23 @@ small {
   border-radius: 8px;
 }
 
+.action-container-contact{ 
+  margin-top: 20px;
+  background: #3882f6;
+  border-radius: 10px;
+}
+
 .action-container-contact .lets-talk {
+
   font-size: 20px;
   font-family: "Roboto-Bold";
   font-weight: bolder;
   color: #e5e7eb;
   padding: 60px;
   background: #3882f6;
-  border-radius: 10px;
+ 
 }
-
-.action-container-contact button {
+.action-container-contact button {  
   padding: 15px;
   width: 100px;
   margin-top: 30px;
