@@ -166,7 +166,7 @@ small {
   font-family: "Roboto-LightItalic";
   font-size: 36px;
 }
-.quote-container small {
+.quote-container small .signature{
   position: relative;
   left: 300px;
   font-weight: bold;
