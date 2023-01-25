@@ -158,17 +158,16 @@ body {
   margin-top: 50px;
 }
 
-.quote-container p,
-small {
+.quote-container p {
   word-spacing: 10px;
-  text-align: center;
+  text-align: left;
   width: 800px;
   font-family: "Roboto-LightItalic";
   font-size: 36px;
 }
-.quote-container small .signature{
+.quote-container .signature{
   position: relative;
-  left: 300px;
+  left: 600px;
   font-weight: bold;
 }
 .action-container {
