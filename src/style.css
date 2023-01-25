@@ -190,7 +190,9 @@ body {
   text-align: center;
   font-family: "Roboto-Light", sans-serif;
 }
-
+.main-grid .card p{
+  text-align: left;
+}
 
 .action-container button {
   padding: 10px;
