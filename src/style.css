@@ -38,8 +38,13 @@ body {
   font-size: 48px;
 }
 
+nav {
+  position: fixed;
+}
+
 .links {
   display: flex;
+  position: relative;
   justify-content: end;
   align-items: space-between;
   font-family: "Roboto", sans-serif;
@@ -90,11 +95,12 @@ body {
   color: #e5e7eb;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-right: 50px;
+  text-align: left;
 }
 .top-image {
   display: flex;
-  width: 600px;
+  width: 800px;
+  padding: 20px;
 }
 .top-image img {
   object-fit: cover;
@@ -172,16 +178,17 @@ figcaption {
   margin-top: 50px;
 }
 
-.quote-container p {
+blockquote {
   word-spacing: 10px;
   text-align: left;
   width: 800px;
   font-family: "Roboto-LightItalic";
   font-size: 36px;
 }
-.quote-container .signature {
+cite {
   position: relative;
   left: 600px;
+  margin-top: 20px;
   font-weight: bold;
 }
 .action-container {
@@ -197,6 +204,11 @@ figcaption {
   color: white;
 }
 
+.main-grid h2 {
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+}
 .main-grid .card {
   background: #1f2937;
   color: #e5e7eb;
@@ -204,8 +216,14 @@ figcaption {
   text-align: center;
   font-family: "Roboto-Light", sans-serif;
 }
-.main-grid .card p {
-  text-align: left;
+.main-grid button {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 10px;
+  background: #3882f6;
+  width: 100px;
+  border-radius: 10px;
 }
 
 .destination {
@@ -240,6 +258,14 @@ figcaption {
   margin-bottom: 10px;
   font-size: 30px;
   font-weight: bolder;
+}
+
+.destination button {
+  padding: 10px;
+  margin: 10px 10px;
+  background: #3882f6;
+  width: 100px;
+  border-radius: 10px;
 }
 .action-container button {
   padding: 10px;
