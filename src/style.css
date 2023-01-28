@@ -21,7 +21,6 @@
 }
 body {
   text-align: center;
-  margin: 60px;
 }
 
 .hero,
@@ -202,7 +201,7 @@ body {
 }
 
 .action-container-contact {
-  margin-top: 200px;
+  margin-top: 30px;
   background: #3882f6;
   border-radius: 20px;
 }
