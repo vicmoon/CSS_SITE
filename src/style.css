@@ -24,7 +24,8 @@ body {
 }
 
 .hero,
-.copywrite {
+.copywrite,
+.top-body {
   background: #1f2937;
   color: white;
 }
@@ -45,50 +46,65 @@ body {
   font-size: 18px;
   margin-bottom: 30px;
 }
+.links li {
+  font-size: 24;
+  list-style: none;
+  margin: 5px;
+}
 .links a {
   color: #e5e7eb;
-  font-size: 24;
+  text-decoration: none;
 }
 .logo {
   margin-left: 20px;
   display: flex;
   justify-content: flex-start;
-  font-size: 24px;
   color: #f9faf8;
 }
-.header-body {
+
+#large-logo {
+  width: 45%;
+}
+#small-logo {
+  width: 20%;
+}
+.top-body {
   padding-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   text-align: left;
+  padding: 50px;
 }
 
-.header-body h1 {
+.top-body h1 {
   font-family: "Roboto-Bold";
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
 }
 
-.header-body h4 {
+.top-body h4 {
   font-family: "Roboto-Light";
   font-size: 18px;
   color: #e5e7eb;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 50px;
 }
-.header-image {
-  background: #6d747d;
+.top-image {
   display: flex;
   width: 600px;
 }
-.header-image p {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  margin-left: 210px;
+.top-image img {
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
 }
-
-.header-button {
+figcaption {
+  display: none;
+}
+.top-button {
   padding: 9px;
   background: #3882f6;
   border-radius: 8px;
@@ -132,6 +148,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+  margin: 20px;
 }
 .middle-body h2 {
   margin-top: 50px;
@@ -191,6 +208,39 @@ body {
   text-align: left;
 }
 
+.destination {
+  font-family: "Roboto-Light", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px 200px 40px 200px;
+  color: #e5e7eb;
+  background: #1f2937;
+  padding: 50px;
+  border-radius: 10px;
+}
+.destination img {
+  object-fit: cover;
+  width: 500px;
+  height: 250px;
+}
+.destination .align-left {
+  margin-right: 35px;
+  text-align: left;
+  font-family: "Roboto-Light", sans-serif;
+}
+
+.destination .align-right {
+  margin-left: 35px;
+  text-align: left;
+  font-family: "Roboto-Light", sans-serif;
+}
+
+.destination h2 {
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+}
 .action-container button {
   padding: 10px;
   background-color: #3882f6;

@@ -4,73 +4,80 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/reset.css" media="screen" />
     <link rel="stylesheet" href="src/style.css" />
     <title>Site</title>
   </head>
   <body>
-    <header class="hero">
-      <div class="logo"> Header Logo</div>
-      <div class="links">
-        <div> <a href="./pages/products.html"> Products |  </a></div>
-        <div> <a href="./pages/team.html"> Team |  </a></div>
-        <div> <a href="./pages/contacts.html">  Contacts </a></div>
+     <header class="hero">
+      <div class="logo">
+        <a href="/index.html"> <img src="/res/logo.png" id="large-logo" /> </a>
       </div>
-      <section class="header-body">
+      <nav class="links">
+        <li><a href="./pages/destinations.html"> Destinations </a></li>
+        <li><a href="./pages/experiences.html"> Experiences</a></li>
+        <li><a href="./pages/contacts.html"> Contacts </a></li>
+      </nav>
+    </header>
+    <main>
+      <section class="top-body">
         <div>
-          <h1><strong>This Website is awesome</strong></h1>
+          <h1><strong>Become Extraterrestrial!</strong></h1>
           <h4>
-            This website has some subtext that goes here under the main title.</br>
-            It's a smaller font and the color is lower contrast
+            Advances in computing and theoretical science have improved our techniques, 
+            while new proposals lead to improvements in speed, fuel economy, and safety.
+            We are now able to travel into the space!</br>
           </h4>
-        <button class="header-button">Sign up</button>
+        <button class="top-button">Sign up</button>
         </div>
-        <div class="header-image">
-          <p> Placeholder for an image</p>
+          <figure class="top-image">
+            <img src="/res/spaceship.jpg" alt="Spaceship travelling in space">
+            <figcaption> Spaceship travelling in space </figcaption>
+          </figure>
+      </section>
+
+      <section class="middle-body">
+        <h2>Some random information.</h2>
+        <div class="photos-grid"> 
+          <div class="box">
+            <small class="text"> This is some subtext under an 
+              illustration or image </small>
+          </div>
+          <div class="box">
+            <small class="text"> This is some subtext under an 
+              illustration or image</small>
+          </div>
+          <div class="box">
+            <small class="text"> This is some subtext under an 
+              illustration or image</small>
+          </div>
+          <div class="box">
+            <small class="text"> This is some subtext under an 
+              illustration or image</small>
+          </div>
+        </div>  
+        <div class="quote-container">
+          <p>
+          This is an inspiring quote, or a testimonial from a customer. Maybe it is
+          just filling up space , or people will actually read it. Who knows? All I
+          know is that it looks nice.</br>
+          <small class="signature">-Thor</small>
+          </p>
         </div>
       </section>
-    </header>
-
-    <section class="middle-body">
-      <h2>Some random information.</h2>
-      <div class="photos-grid"> 
-        <div class="box">
-          <small class="text"> This is some subtext under an 
-            illustration or image </small>
+      <section class="action-container">
+          <div>
+            <p> Call to action ! It's time! </br>Sign up for our product by clicking that
+            button right over there! </br>
+            </p>
+          </div>
+          <div>
+            <button>Sign Up!</button>
+          </div>
         </div>
-        <div class="box">
-          <small class="text"> This is some subtext under an 
-            illustration or image</small>
-        </div>
-        <div class="box">
-          <small class="text"> This is some subtext under an 
-            illustration or image</small>
-        </div>
-        <div class="box">
-          <small class="text"> This is some subtext under an 
-            illustration or image</small>
-        </div>
-     </div>  
-      <div class="quote-container">
-        <p>
-        This is an inspiring quote, or a testimonial from a customer. Maybe it is
-        just filling up space , or people will actually read it. Who knows? All I
-        know is that it looks nice.</br>
-        <small class="signature">-Thor</small>
-        </p>
-      </div>
-    </section>
-
+      </section>
+    </main>
     <footer>
-      <div class="action-container">
-        <div>
-        <p> Call to action ! It's time! </br>Sign up for our product by clicking that
-           button right over there! </br>
-        </p>
-        </div>
-        <div>
-        <button>Sign Up!</button>
-        </div>
-      </div>
       <div class="copyright">Copyright © </div>
     </footer>
   </body>
