@@ -29,14 +29,10 @@ body {
   background: #1f2937;
   color: white;
 }
+
 .hero {
-  padding: 60px;
+  padding: 20px;
 }
-
-nav {
-  position: fixed;
-}
-
 .links {
   display: flex;
   position: relative;
@@ -153,7 +149,6 @@ figcaption {
   padding: 80px;
   margin-top: 50px;
 }
-
 blockquote {
   word-spacing: 10px;
   text-align: left;
