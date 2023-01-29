@@ -35,7 +35,7 @@ body {
 
 .links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-;
   align-items: center;
 }
 
@@ -43,7 +43,7 @@ body {
   display: flex;
   position: relative;
   justify-content: end;
-  align-items: space-between;
+  align-items: center;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   margin-bottom: 30px;
