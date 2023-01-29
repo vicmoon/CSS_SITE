@@ -59,6 +59,9 @@ body {
   align-items: left;
   color: #f9faf8;
 }
+.logo:hover {
+  cursor: pointer;
+}
 
 #large-logo {
   width: 45%;
