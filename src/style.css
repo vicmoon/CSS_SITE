@@ -61,6 +61,7 @@ body {
 }
 .logo:hover {
   cursor: pointer;
+  cursor: yellow;
 }
 
 #large-logo {
